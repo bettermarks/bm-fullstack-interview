@@ -105,3 +105,4 @@ dist
 
 # intellij project
 *.iml
+.idea/
