@@ -9,6 +9,27 @@ The plan is to build a simple frontend to display student's activities from the 
 
 Best of luck :)
 
+## Step0: Install and run the project
+
+As we use node.js for both `server` and `client`, you only have to:
+```sh
+# At the root of the repository
+npm install
+```
+
+> Note: this will install `server` and `client`'s dependencies.
+> Feel free to look inside the root's package.json for more details.
+
+To start both server and client concurrently:
+```sh
+# At the root of the repository
+npm start
+```
+> Note: you can still run seperatly `client` and `server` from different terminal windows
+> by running `npm start` inside `server` and `client` folder.
+
+There is hot reloading for both `server` and `client`'s code.
+
 ## Step1: Create react components
 
 * list of class activities
